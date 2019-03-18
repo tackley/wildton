@@ -12,3 +12,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map {
+  margin-left: 2rem;
+}
+
+.row {
+  line-height: 0;
+  height: 2rem;
+}
+
+.cell {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: center;
+  display: inline-block;
+}
+
+.desert {
+  background-color: yellow;
+}
+
+.sea {
+  background-color: aqua;
+}
+
+.bridge {
+  background-color: gray;
+}
+
+.forest {
+  background-color: darkgreen;
+}
+
+.plains {
+  background-color: lightgreen;
+}
