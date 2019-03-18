@@ -30,6 +30,10 @@ class MapCell extends React.Component<{cellType: number}> {
                 style += "plains";
                 break;
 
+            case 36:
+                style += "mountains";
+                break;
+
             case 0:
                 break;
 
